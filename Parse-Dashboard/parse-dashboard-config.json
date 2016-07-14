@@ -1,10 +1,16 @@
 {
-  "apps": [{
-    "serverURL": "",
-    "appId": "",
-    "masterKey": "",
-    "appName": "",
-    "iconName": ""
-  }],
-  "iconsFolder": "icons"
+  "apps": [
+    {
+        "serverURL": "https://experimental-parse-server.herokuapp.com/parse", // If your Parse Server's endpoint is not at /parse, you need to replace /parse with the correct endpoint
+        "appId": "PARSE_SERVER_EXPERIMENTAL",
+        "masterKey": "PARSE_SERVER_EXPERIMENTAL_MASTER_KEY",
+        "appName": "Parse Server Experimental"
+    }
+  ],
+  "users": [
+    {
+      "user":"kei", // Used to log in to your Parse Dashboard
+      "pass":"kei123"
+    }
+  ]
 }
